@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+
+    <style>
+
+      #dropdownMenuButton1 {
+  
+      color: deepskyblue;
+  
+      }
+      
+  
+      div.container.birdsCard {
+  
+        display:flex;
+  
+      }
+      </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="container-fluid">
+  
+      <a class="navbar-brand" href="#">Interesting Birds</a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+        <span class="navbar-toggler-icon"></span>
+  
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+        <ul class="navbar-nav mr-auto me-auto mb-2 mb-lg-0">
+  
+          <li class="nav-item">
+  
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+  
+          </li>
+  
+          <li class="nav-item">
+  
+            <a class="nav-link" href="advanced.html">Advanced</a>
+  
+          </li>      
+  
+        </ul>
+  
+      </div>
+  
+    </div>
+  
+  </nav>
+  <h3>Birds by Murali Krishna Kethavath</h3>
+ <h5>Last Name : <span style="color: darkcyan;">KETHAVATH</span></h5>
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-2">K</div>
+    <div class="col-sm-2">e</div>
+    <div class="col-sm-2">t</div>
+    <div class="col-sm-2">h</div>
+    <div class="col-sm-2">a</div>
+    <div class="col-sm-2">v</div>
+    <div class="col-sm-2">a</div>
+    <div class="col-sm-2">t</div>
+    <div class="col-sm-2">h</div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">Killdeer Plover</div>
+    <div class="col-md-2">Eagle Owl</div>
+    <div class="col-md-2">Tawny Eagle</div>
+    <div class="col-md-2">Hawfinch</div>
+    <div class="col-md-2">Abyssinian Woodpecker </div>
+    <div class="col-md-2">Van Dam's Vanga</div>
+    <div class="col-md-2">Abdim's stork</div>
+    <div class="col-md-2">Tawny Antpitta</div>
+    <div class="col-md-2">Hemprich's Hornbill</div>
+  </div>
+  <p>
+    The Bird names row is breaking first cause the bird's name word length is more so when we are
+     reducing browser window size based on Bootstrap grid css from min width of 768px col-md-2 is
+     taking classes are applying that is the width of 16.6 % but when screen size is reduced to below
+     786px so we have not defined any css classes for that particular div so it's taking parent div css that is width of 100% for each and every div
+  </p>
+</div> 
+<div class="img-fluid">
+  <img src="Killdeer_Plover.jpg" class="img-fluid" width="400" height="400">
+  <img src="Eagle_Owl.jpg" class="img-fluid" width="400" height="400">
+  <img src="Tawny_Eagle.jpg" class="img-fluid" width="400" height="400">
+</div>
+<div class="img-thumbnail" >
+  <img src="Killdeer_Plover.jpg" class="img-thumbnail" width="400" height="400">
+  <img src="Eagle_Owl.jpg" class="img-thumbnail" width="400" height="400">
+  <img src="Tawny_Eagle.jpg" class="img-thumbnail" width="400" height="400" >
+</div>
+<table class="table table-striped table-bordered table-hover table-responsive" >
+  <caption>Table w.r.t to Birds, Lake, Athlete Name</caption>
+  <tr>
+    <thead class="thead-dark table-light">
+
+  <th scope="col">
+    Letter
+  </th>
+  <th scope="col">
+    Bird
+  </th>
+  <th scope="col">
+    Lake
+  </th>
+  <th scope="col">
+    Athlete
+  </th>
+</thead>
+
+</tr>
+<tbody>
+  
+  <tr class="table-primary">
+    <td>K</td>
+    <td>Killdeer Plover</td>
+    <td>Kairakkumskoye lake</td>
+    <td>Karl Otto Kassulke</td>
+  </tr>
+  <tr class="table-primary">
+    <td>e</td>
+    <td>Eagle Owl</td>
+    <td>Ebinur Lake </td>
+    <td>Damion Easley</td>
+    
+  </tr>
+  <tr class="table-primary">
+    <td>t</td>
+    <td>Tawny Eagle</td>
+    <td>Taal lake</td>
+    <td>Jeff Tabaka</td>
+  </tr>
+  <tr class="table-primary">
+    <td>h</td>
+    <td>Hawfinch</td>
+    <td>Hachiro</td>
+    <td>Yamid Haad</td>
+  </tr>
+  <tr class="table-primary">
+    <td>a</td>
+    <td>Abyssinian Woodpecker</td>
+    <td>Aishihik lake</td>
+    <td>David Aardsma</td>
+  </tr>
+  <tr class="table-primary">
+    <td>v</td>
+    <td>Van Dam's Vanga</td>
+    <td>Van lake</td>
+    <td>Tex Vache</td>
+  </tr>
+  <tr class="table-primary">
+    <td>a</td>
+    <td>Abdim's stork</td>
+    <td>Abijata lake</td>
+    <td>Henry Aaron</td>
+  </tr>
+  <tr class="table-primary">
+    <td>t</td>
+    <td>Tawny Antpitta</td>
+    <td>Tai lake</td>
+    <td>José Tabata</td>
+  </tr>
+  <tr class="table-primary">
+    <td>h</td>
+    <td>Hemprich's Hornbill</td>
+    <td>Hago lake</td>
+    <td>yamid Haad</td>
+  </tr>
+</tbody>
+</table>
+<label> Button </label><br>
+
+<div class="btn-toolbar" role="toolbar">
+  <div class="btn-group me-2" role="group">
+    <button type="button" class="btn btn-success">K</button>
+    <button type="button" class="btn btn-success">E</button>
+    <button type="button" class="btn btn-success">T</button>
+    <button type="button" class="btn btn-success">H</button>
+    <button type="button" class="btn btn-success">A</button>
+  </div>
+  <div class="btn-group me-2 " role="group">
+    <button type="button" class="btn btn-warning">V</button>
+    <button type="button" class="btn btn-warning">A</button>
+    <button type="button" class="btn btn-warning">T</button>
+    <button type="button" class="btn btn-warning">H</button>
+  </div>
+  <div class="btn-group me-2" role="group">
+    <button type="button" class="btn btn-danger">M</button>
+  </div>
+
+</div>
+<br>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+  </ul>
+</div>
+<form>
+  <div class="form-group">
+  <div class="mb-3 ">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Bird</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your bird">
+  </div>
+  
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<div class="container birdsCard">
+  <div class="card" style="width: 18rem;">
+    <img src="Killdeer_Plover.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2>Killdeer Plover</h2>
+      <p class="card-text">Killdeer Plover (Papasula abbotti) is an endangered seabird of the sulid family, which includes gannets and boobies...</p>
+    </div>
+    <div class="card-body">
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Killdeer Plover" role="button">For more Info Click</a>
+    </div>
+  </div>
+  
+  <div class="card" style="width: 18rem;">
+    <img src="Eagle_Owl.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2>Eagle Owl</h2>
+      <p class="card-text">
+        A striking bushshrike with a chestnut crown and nape, blackish upperparts with a white wing-stripe, and entirely white underparts...</p>
+    </div>
+    <div class="card-body">
+      <a class="btn btn-primary" href="https://ebird.org/species/Eagle Owl" role="button">For more Info Click</a>
+    </div>
+  </div>
+  
+  <div class="card" style="width: 18rem;">
+    <img src="Tawny_Eagle.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2>Tawny Eagle</h2>
+      <p class="card-text">The gabar goshawk (Micronisus gabar) is a small species of African and Arabian bird of prey in the family Accipitridae...</p>
+    </div>
+    <div class="card-body">
+      <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Tawny Eagle" role="button">For more Info Click</a>
+    </div>
+  </div>
+  
+  </div>
+</body>
+</html>
